@@ -1,0 +1,75 @@
+{
+  "workbench.colorTheme": "Dark Space Black",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "editor.fontFamily": "Jetbrains Mono",
+  "files.autoSave": "afterDelay",
+  "workbench.navigationControl.enabled": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "editor.fontWeight": "500",
+  "editor.tokenColorCustomizations": {
+    "[Dark Space Black]": {
+      "comments": "#a3a3a3",
+      "textMateRules": [
+        {
+          "scope": "entity.name.tag, punctuation.definition.tag",
+          "settings": {
+            "foreground": "#9963e0",
+          }
+        },
+      ]
+    }
+  },
+  "java.saveActions.organizeImports": true,
+  "editor.guides.indentation": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "fit",
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "codeium.enableCodeLens": false,
+  "workbench.activityBar.location": "top",
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "clock.alignment": "Right",
+  "clock.format": "HH:MM:ss",
+  "editor.stickyScroll.enabled": false,
+  "gitlens.gitCommands.sortBy": "name",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "vscode-neovim.neovimExecutablePaths.linux": "/opt/nvim-linux-x86_64/bin/nvim",
+  "vscode-neovim.useWSL": true,
+  "vscode-neovim.wslDistribution": "Ubuntu",
+  "workbench.productIconTheme": "fluent-icons",
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "github.copilot.enable": {
+    "typescript": true,
+    "scss": true,
+    "css": true,
+    "react": true
+  },
+  "telemetry.telemetryLevel": "off",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.codeActionsOnSave": {
+  
+    "source.organizeImports": "explicit"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
